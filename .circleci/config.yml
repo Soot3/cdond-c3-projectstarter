@@ -349,7 +349,7 @@ jobs:
             --output text) 
             echo ${BACKEND_IP}
             
-            export BACKEND=$(echo $BACKEND_IP | grep -o '[^ ]*$)
+            export BACKEND=$(echo $BACKEND_IP | grep -o '[^ ]*$')
 
               # Fetch and prepare the BACKEND_IP env var
             echo $BACKEND
